@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(to right, #0C04B3, #120A8F, #070495);
+  color: white;
+  font-family: sans-serif
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+}
+.gallery img {
+  max-width: 200px;
+  border: 2px solid #ccc;
+}
