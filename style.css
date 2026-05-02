@@ -1,7 +1,8 @@
 body {
   background: linear-gradient(to right, #0C04B3, #120A8F, #070495);
-  color: white;
-  font-family: sans-serif
+  color: #FAFA33;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .gallery {
