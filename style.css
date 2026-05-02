@@ -12,3 +12,11 @@ body {
   max-width: 200px;
   border: 2px solid #ccc;
 }
+
+footer {
+  text-align: center; 
+  padding: 20px; 
+  font-size: 14px; 
+  font-family: sans-serif;
+  color: #555;
+}
