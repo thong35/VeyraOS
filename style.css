@@ -9,10 +9,6 @@ body {
   display: flex;
   gap: 20px;
 }
-.gallery img {
-  max-width: 200px;
-  border: 2px solid #ccc;
-}
 
 footer {
   text-align: center; 
