@@ -1,7 +1,28 @@
 body {
-  background: linear-gradient(to right, #ADD8E6, #87CEEB, #000080);
-  font-family: sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', sans-serif;
   text-align: center;
+  color: #e0e0e0;
+}
+
+h1, h2, h3 {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  backdrop-filter: blur(10px);
+}
+
+a:hover {
+  color: #ff00ff;
+  text-shadow: 0 0 8px #ff00ff;
 }
 
 .gallery1, .gallery2, .gallery3{
