@@ -31,21 +31,14 @@ a:hover {
 }
 
 .gallery1 img {
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
   display: block;
   margin: 20px auto;
 }
 
-.gallery2 img {
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-}
-
-.gallery3 img {
-  max-width: 500px;
+.gallery2 img, .gallery3 img {
+  max-width: 650px;
   height: auto;
   display: block;
   margin: 20px auto;
@@ -56,4 +49,5 @@ footer {
   padding: 20px; 
   font-size: 14px; 
   font-family: sans-serif;
-  color: #222
+  color: #222;
+}
