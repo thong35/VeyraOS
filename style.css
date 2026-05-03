@@ -1,13 +1,7 @@
 body {
-  background: linear-gradient(to right, #0C04B3, #120A8F, #070495);
-  color: #FAFA33;
+  background: linear-gradient(to right, #ADD8E6, #87CEEB, #000080);
   font-family: sans-serif;
   text-align: center;
-}
-
-.gallery {
-  display: flex;
-  gap: 20px;
 }
 
 footer {
