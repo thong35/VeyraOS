@@ -4,6 +4,17 @@ body {
   text-align: center;
 }
 
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 200px;
+  border: 2px solid #ccc;
+}
+
 footer {
   text-align: center; 
   padding: 20px; 
