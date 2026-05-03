@@ -6,7 +6,6 @@ body {
 
 .gallery1, gallery2 {
   display: flex;
-  gap: 20px;
   justify-content: center;
 }
 
