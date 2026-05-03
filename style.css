@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-.gallery1, .gallery2 {
+.gallery1, .gallery2, .gallery3{
   display: flex;
   justify-content: center;
 }
@@ -17,6 +17,13 @@ body {
 }
 
 .gallery2 img {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.gallery3 img {
   max-width: 500px;
   height: auto;
   display: block;
