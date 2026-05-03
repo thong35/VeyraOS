@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-.gallery1, gallery2 {
+.gallery1, .gallery2 {
   display: flex;
   justify-content: center;
 }
