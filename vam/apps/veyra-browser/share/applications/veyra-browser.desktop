@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Veyra Browser
+Exec=/opt/veyra/apps/veyra-browser/bin/veyra-browser
+Icon=/opt/veyra/apps/veyra-browser/share/icons/veyra-browser.png
+Type=Application
+Categories=Network;WebBrowser;
