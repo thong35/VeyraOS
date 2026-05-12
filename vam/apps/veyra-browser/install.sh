@@ -8,6 +8,9 @@ sudo mkdir -p /opt/veyra/apps/
 # Extract tarball
 sudo tar -xzf veyra-browser.tar.gz -C /opt/veyra/apps/
 
+Ensure executable permissions
+sudo chmod +x /opt/veyra/apps/bin/veyra-browser
+
 # Copy desktop entry so it shows in menus
 sudo cp /opt/veyra/apps/share/applications/veyra-browser.desktop /usr/share/applications/
 
