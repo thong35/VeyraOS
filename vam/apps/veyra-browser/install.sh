@@ -1,16 +1,14 @@
 #!/bin/bash
-APP_NAME="veyra-browser"
-INSTALL_DIR="/opt/veyra/apps/$APP_NAME"
 
-echo "📦 Installing $APP_NAME..."
+echo "📦 Installing veyra-browser..."
 
 # Create target directory
-sudo mkdir -p $INSTALL_DIR
+sudo mkdir -p /opt/veyra/apps/
 
 # Extract tarball
-sudo tar -xzf $APP_NAME.tar.gz -C $INSTALL_DIR
+sudo tar -xzf veyra-browser.tar.gz -C /opt/veyra/apps/
 
 # Copy desktop entry so it shows in menus
-sudo cp $INSTALL_DIR/share/applications/$APP_NAME.desktop /usr/share/applications/
+sudo cp /opt/veyra/apps/share/applications/veyra-browser.desktop /usr/share/applications/
 
-echo "✅ $APP_NAME installed successfully!"
+echo "✅ veyra-browser installed successfully!"
