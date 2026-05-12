@@ -1,5 +1,3 @@
 #!/bin/bash
 echo "🚀 Launching Veyra Browser..."
 xdg-open https://www.google.com
-
-chmod +x veyra-browser/bin/veyra-browser
